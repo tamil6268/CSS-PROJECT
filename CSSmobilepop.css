@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+}
+.container{
+    filter: blur(2px);
+}
+.container{
+    min-width: 360px;
+    min-height: 1400px;
+    border: 2px solid gray;
+    background-color:#F7F7F7;
+    opacity: 1;
+    margin: 0 auto;
+}
+.task{
+    padding: 20px 0px 20px 10px;
+    background-color:white ;
+    font-size: 24px;
+}
+.add{
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+i{
+   color:#00A5EC;
+   font-size: 45px;
+}
+.flex-parent{
+    position: relative;
+    top: 40px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+.flex{
+    width: 336px;
+    height: 360px;
+    border: 3px solid #EDEDED;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    font-size: x-large;
+}
+.flex:hover{
+    box-shadow:1px 1px 1px 1px gray;
+    opacity: 1;
+}
+.ch1{
+    width: 231px;
+    height: 21px;
+    text-align: center;
+    font: normal normal medium 18px/21px Inter;
+    letter-spacing: 0px;
+    color: #00A5EC;
+    opacity: 1;
+    padding: 30px;
+}
+.c1:checked{
+    text-decoration: line-through;
+    color: #C2C2C2;
+} 
+.c1,.c2{
+    margin: 30px 50px 40px 20px;
+}
+.child2{
+    position: relative;
+    top: 20px;
+}
+.child3{
+    position: relative;
+    top: 40px;
+}
+.box{
+    width: 360px;
+    height: 1282px;
+    margin: 0 auto;
+    position: relative;
+    bottom:1110px;
+    z-index: +2;
+}
+.popup{
+    width: 340px;
+    height: 250px;
+    border: 3px solid #EDEDED;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    font-size: x-large;
+    opacity: 1;
+    text-align: left;
+    font: normal normal medium 18px/21px Inter;
+    letter-spacing: 0px;
+    color: #404040;
+    opacity: 1;
+}
+.add-new-task{
+    color: #858585;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: x-large;
+}
+i{
+    color: #858585;
+}
+pre{
+    box-sizing: border-box;
+    position: relative;
+    left: 280px;
+    bottom: 35px;
+}
+.hr{
+    color: #EDEDED;
+    position: relative;
+    bottom: 20px;
+}
+.textbox{
+    margin-left: 10px;
+    width:300px;
+    height:36px;
+    text-align: left;
+    background-color:#EDEDED ;
+}
+button{
+    width: 150px;
+    height: 45px;
+    color: white;
+    border: 0px solid gray;
+    border-radius: 5px;
+    background-color: #00A5EC;
+    position: relative;
+    top: 50px;
+    left: 160px;
+}
