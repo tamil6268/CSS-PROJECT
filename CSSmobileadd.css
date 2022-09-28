@@ -3,11 +3,17 @@
 }
 .container{
     min-width: 360px;
-    min-height: 1400px;
-    border: 2px solid gray;
+    min-height: 600px;
+    border: 2px solid rgb(211, 210, 210);
     background-color:#F7F7F7;
     opacity: 1;
     margin: 0 auto;
+}
+@media screen and (max-width:600px){
+    .container{
+        width: 360px;
+        height:1400px;
+    }
 }
 .task{
     padding: 20px 0px 20px 10px;
